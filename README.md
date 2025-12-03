@@ -27,4 +27,10 @@ O projeto está dividido em três implementações principais, todas focadas em 
 | **Paralela** | Memória Compartilhada | Módulo `threading` | Otimizar o tempo de execução usando múltiplos núcleos da CPU. |
 | **Distribuída** | Memória Distribuída (Cliente/Servidor) | Sockets TCP e `pickle` | Analisar o *overhead* de rede e a comunicação Cliente/Servidor. |
 
-## 🛠️ Estrutura do Repositório
+## 🛠️ Tempo de comparação final
+Tempo de execucao Sequencial: 8.7995 segundos
+Tempo de execucao Paralela (Threads): 9.0714 segundos
+Tempo de execucao Distribuida (1:1 Socket): 19.4781 segundos
+
+
+Autor: Leonardo Rodrigues de Souza 2313189
